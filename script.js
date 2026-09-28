@@ -16,7 +16,7 @@ updateCountdown(); setInterval(updateCountdown,1000);
 // 2. Set General access to: Anyone with the link -> Viewer.
 // 3. Copy the folder URL and paste it below.
 // ============================================================
-const GOOGLE_DRIVE_PHOTO_FOLDER = 'PASTE_YOUR_GOOGLE_DRIVE_FOLDER_LINK_HERE';
+const GOOGLE_DRIVE_PHOTO_FOLDER = 'https://drive.google.com/drive/folders/1TAhqb_IEkmaHIJWGsiOpNn27I-Nl3iOC?usp=drive_link';
 const driveButton = document.getElementById('driveButton');
 if (driveButton && GOOGLE_DRIVE_PHOTO_FOLDER.startsWith('http')) {
   driveButton.href = GOOGLE_DRIVE_PHOTO_FOLDER;
