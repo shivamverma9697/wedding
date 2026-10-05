@@ -20,14 +20,20 @@
   display: block;
   object-fit: contain;
 }
+.photo-frame video.couple-card {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  display: block;
+  object-fit: contain;
+}
 
-
-.couple-card {
+/* .couple-card {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-}
+} */
 .placeholder{background:linear-gradient(145deg,#e8d7b8,#c6a36b);display:flex;align-items:center;justify-content:center;color:rgba(75,16,24,.55);font-family:Cinzel,serif;letter-spacing:3px;text-align:center}
 .story-copy{font-size:1.05rem;line-height:1.9;color:#5b4740}
 .script{font-family:'Great Vibes',cursive;font-size:2rem;color:var(--maroon);line-height:1.2}.events{background:var(--cream)}
